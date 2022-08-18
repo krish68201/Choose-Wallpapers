@@ -1,0 +1,73 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Bebas Neue', cursive;
+  align-items: center;
+  justify-content: center;
+  background-color:whitesmoke;
+  color: rgb(88, 8, 99);
+  font-size: 2rem;
+  
+}
+h1{
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  letter-spacing: 4px;
+  text-align: center;
+}
+h5{
+  margin-top: 5px;
+  text-align: right;
+  margin-right: 10rem;
+  color:rgb(71, 4, 71);
+  font-family: serif;
+  letter-spacing: 0;
+  text-decoration: dotted;
+}
+.loader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.8);
+ 
+}
+.loader img{
+ position: fixed;
+  top: 40%;
+  left: 40%;
+  transform: translaste(-50%,-50%);
+}
+.imagecontainer{
+ margin: 10px 20%;
+
+}
+.imagecontainer img{
+  width: 100%;
+  margin-top: 5px;
+}
+.content{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width:600px)
+{
+  h1{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .imagecontainer{
+    margin: 10px;
+  }
+}
